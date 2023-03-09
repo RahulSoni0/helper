@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/flinearLayout" android:background="@color/colorPrimary" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageButton android:layout_gravity="center" android:id="@+id/imagesCaptured" android:background="@color/lightGrey" android:layout_width="170dp" android:layout_height="210dp"/>
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@+id/imagesNumberFinal" android:background="@drawable/customcamnumber" android:layout_width="25dp" android:layout_height="25dp" android:layout_margin="10dp" android:text="12" app:layout_constraintBottom_toBottomOf="@+id/flinearLayout" app:layout_constraintRight_toRightOf="@+id/flinearLayout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

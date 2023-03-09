@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/edit_pic" android:id="@+id/rename" android:title="Rename"/>
+    <item android:icon="@drawable/delete_icon" android:id="@+id/delete" android:title="Delete"/>
+    <item android:icon="@drawable/share" android:id="@+id/share" android:title="Share"/>
+</menu>

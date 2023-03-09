@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/home_icon" android:textSize="12dp" android:id="@+id/nav_home" android:background="@drawable/grey_ripple" android:title="Home"/>
+        <item android:icon="@drawable/video_tutorials" android:textSize="12dp" android:id="@+id/video_tutorials" android:background="@drawable/grey_ripple" android:title="Video Tutorial"/>
+        <item android:icon="@drawable/rate_us" android:textSize="12dp" android:id="@+id/rate_us" android:background="@drawable/grey_ripple" android:title="Rate us"/>
+        <item android:icon="@drawable/contact_us" android:textSize="12dp" android:id="@+id/contact_us" android:background="@drawable/grey_ripple" android:title="Contact us"/>
+        <item android:icon="@drawable/feedback" android:textSize="12dp" android:id="@+id/feedback" android:background="@drawable/grey_ripple" android:title="Suggestions and feedback"/>
+        <item android:icon="@drawable/about_us" android:textSize="12dp" android:id="@+id/about_us" android:background="@drawable/grey_ripple" android:title="About us"/>
+        <item android:icon="@drawable/insta_logo" android:textSize="12dp" android:id="@+id/follow" android:background="@drawable/grey_ripple" android:title="Follow us on Instagram"/>
+        <item android:icon="@drawable/attach_money" android:textSize="12dp" android:id="@+id/donate" android:background="@drawable/grey_ripple" android:title="Your Support"/>
+    </group>
+</menu>
